@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hangman_Game</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div id="title">
+            <pre><p> _    _                                                     </p></pre>
+            <pre><p>| |  | |                                                    </p></pre>
+            <pre><p>| |__| |   __ _   _ __     __ _   _ __ ___     __ _   _ __  </p></pre>
+            <pre><p>|  __  |  / _` | | '_ \   / _` | | '_ ` _ \   / _` | | '_ \ </p></pre>
+            <pre><p>| |  | | | (_| | | | | | | (_| | | | | | | | | (_| | | | | |</p></pre>
+            <pre><p>|_|  |_|  \__,_| |_| |_|  \__, | |_| |_| |_|  \__,_| |_| |_|</p></pre>
+            <pre><p>                           __/ |                            </p></pre>
+            <pre><p>                          |___/                             </p></pre>
+
+
+
+            <pre><p>      _____   _______  _  _______            _________ ______   _______  _______    _______  _______  _______  _______  _______ </p></pre>
+            <pre><p>     / ___ \ (  __   )( )(  ____ \  |\     /|\__   __/(  __  \ (  ____ \(  ___  )  (  ____ \(  ___  )(       )(  ____ \(  ____ \</p></pre>
+            <pre><p>    ( (___) )| (  )  ||/ | (    \/  | )   ( |   ) (   | (  \  )| (    \/| (   ) |  | (    \/| (   ) || () () || (    \/| (    \/</p></pre>
+            <pre><p>     \     / | | /   |   | (_____   | |   | |   | |   | |   ) || (__    | |   | |  | |      | (___) || || || || (__    | (_____ </p></pre>
+            <pre><p>     / ___ \ | (/ /) |   (_____  )  ( (   ) )   | |   | |   | ||  __)   | |   | |  | | ____ |  ___  || |(_)| ||  __)   (_____  )</p></pre>
+            <pre><p>    ( (   ) )|   / | |         ) |   \ \_/ /    | |   | |   ) || (      | |   | |  | | \_  )| (   ) || |   | || (            ) |</p></pre>
+            <pre><p>    ( (___) )|  (__) |   /\____) |    \   /  ___) (___| (__/  )| (____/\| (___) |  | (___) || )   ( || )   ( || (____/\/\____) |</p></pre>
+            <pre><p>     \_____/ (_______)   \_______)     \_/   \_______/(______/ (_______/(_______)  (_______)|/     \||/     \|(_______/\_______)</p></pre>
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <h2>Guess the word:</h2>
+                <span id="answer"></span>
+                <p id="right"></p>
+                <p>
+                    <span id="remain">12 guesses remain</span>
+                </p>
+                <p id="wrong"></p>
+            </div>
+        </div>
+    </div>
+    
+    <audio controls autoplay>
+        <source src="contra.ogg" type="audio/ogg">
+        <source src="contra.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      
+    <script src="game.js"></script>
+
+</body>
+
+</html>

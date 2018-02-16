@@ -1,0 +1,27 @@
+body {
+    background-color: #282828;
+    font-family: "Courier New", Courier, monospace;
+    
+}
+
+.wrapper {
+    color: #FEFEFE;
+    text-align: center;
+    color: #33FF33
+}
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h2, #remain, #answer {
+    color: blue;
+    text-align: center;
+    font-weight: 900px;
+    font-size: 50px;
+}
+
+#music { 
+    display: none;
+ }
